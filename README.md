@@ -4,7 +4,7 @@ This project trains a Decision Tree classifier on the Iris dataset and saves:
 - `outputs/model.joblib`
 - `outputs/confusion_matrix.png`
 
-## How to Run (Tutor-Optimised Instructions)
+## How to Run 
 
 1. Create and activate a virtual environment:
    ```
