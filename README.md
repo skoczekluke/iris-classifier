@@ -1,12 +1,28 @@
-# iris classifier (Decision Tree)
+# Iris Classifier
 
-## overview
-end-to-end ML example from Digital Mastery Module : builds a decision-tree classifier on the classis iris dataset using scikit-learn.
+This project trains a Decision Tree classifier on the Iris dataset and saves:
+- `outputs/model.joblib`
+- `outputs/confusion_matrix.png`
 
-## quick start
-```bash
-git clone https://github.com/SkoczekLuke/iris-classifier.git
-cd iris-classifier
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-python src/train.py
+## How to Run (Tutor-Optimised Instructions)
+
+1. Create and activate a virtual environment:
+   ```
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate  # Mac/Linux
+   ```
+
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the training script:
+   ```
+   python src/train.py --test_size 0.2 --random_state 42
+   ```
+
+4. Check the outputs folder for:
+   - model.joblib
+   - confusion_matrix.png
